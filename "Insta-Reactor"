@@ -1,0 +1,25 @@
+function useItem(x,y,z,itemId,blockId,side)
+{
+  if(itemId==280)
+  {
+    setTile(x,y,z,4);
+    setTile(x+1,y,z,41);
+    setTile(x-1,y,z,41);
+    setTile(x+1,y,z+2,41);
+    setTile(x-1,y,z+2,41);
+    setTile(x,y,z+2,4);
+    setTile(x,y,z+1,4);
+    setTile(x+1,y,z+1,4);
+    setTile(x-1,y,z+1,4);
+    setTile(x+1,y+1,z,4);
+    setTile(x-1,y+1,z,4);
+    setTile(x+1,y+1,z+2,4);
+    setTile(x-1,y+1,z+2,4);
+    setTile(x,y+1,z+1,247);
+    setTile(x,y+2,z+1,4);
+    setTile(x+1,y+2,z+1,4);
+    setTile(x-1,y+2,z+1,4);
+    setTile(x,y+2,z+2,4);
+    setTile(x,y+2,z,4);
+  }
+}
