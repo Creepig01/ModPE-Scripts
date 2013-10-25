@@ -1,0 +1,27 @@
+function useItem(x,y,z,itemId,blockId,side)
+{
+  var px = getPlayerX(); var py = getPlayerY(); var pz = getPlayerZ();
+  if(itemId==280 && blockId==2)
+  {
+     setTile(px,py-1,pz,0);
+     setTile(px,py-2,pz,0);
+     setTile(px,py-3,pz,0);
+     setTile(px,py-4,pyz0);
+     setTile(px,py-5,pz,0);
+     setTile(px,py-6,pz,0);
+     setTile(px,py-7,pz,0);
+     setTile(px,py-8,pz,0);
+     setTile(px,py-9,pz,0);
+     setTile(px,py-10,pz,0);
+     //qwery
+     setTile(px,py-11,pz,49);
+     setTile(px+1,py-10,pz,49);
+     setTile(px+1,py-9,pz,49);
+     setTile(px-1,py-10,pz,49);
+     setTile(px-1,py-9,pz,49);
+     setTile(px,py-10,pz+1,49);
+     setTile(px,py-9,pz+1,49);
+     setTile(px,py-10,pz-1,49);
+     setTile(px,py-9,py-1,49);
+    }
+}
