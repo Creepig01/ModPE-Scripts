@@ -1,0 +1,46 @@
+function useItem(x,y,z,itemId,blockId,side)
+{
+  if(itemId==280)
+  {
+    var MCPE = getTile(x,y,z);
+    setTile(x,y,z,MCPE);
+    addItemInventory(MCPE, 1);
+  }
+  else if(itemId==269 && blockId==2)//10 Blocks
+  {
+    //Lift
+    setTile(x,y,z,4);
+    setTile(x+1,y,z,4);
+    setTile(x-1,y,z,4);
+    setTile(x,y+1,z+1,4);
+    setTile(x+1,y+1,z+1,4);
+    setTile(x-1,y+1,z+1,4);
+    setTile(x,y+2,z+2,4);
+    setTile(x+1,y+2,z+2,4);
+    setTile(x-1,y+2,z+2,4);
+    //ACTUZXY
+    setTile(x,y+2,z+3,4);
+    setTile(x+1,y+2,z+3,4);
+    setTile(x-1,y+2,z+3,4);
+    setTile(x,y+2,z+4,4);
+    setTile(x+1,y+2,z+4,4);
+    setTile(x-1,y+2,z+4,4);
+    setTile(x,y+2,z+5,4);
+    setTile(x+1,y+2,z+5,4);
+    setTile(x-1,y+2,z+5,4);
+    setTile(x,y+2,z+6,4);
+    setTile(x+1,y+2,z+6,4);
+    setTile(x-1,y+2,z+6,4);
+    setTile(x,y+2,z+7,4);
+    setTile(x+1,y+2,z+7,4);
+    setTile(x-1,y+2,z+7,4);
+    //Drop
+    setTile(x,y+1,z+8,4);
+    setTile(x+1,y+1,z+8,4);
+    setTile(x-1,y+1,z+8,4);
+    setTile(x,y,z+9,4);
+    setTile(x+1,y,z+9,4);
+    setTile(x-1,y,z+9,4);
+    
+  }
+}
